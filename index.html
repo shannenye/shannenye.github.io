@@ -1,202 +1,230 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Shannen Ye's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
 
-		<!-- Header -->
-			<div id="header">
+<head>
+    <title>Shannen Ye's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-				<div class="top">
+<body>
+    <div id="header">
+        <div class="top">
+            <div id="logo">
+                <span class="image avatar48">
+                    <img src="images/profile.png" alt="" />
+                </span>
+                <h1 id="title">Shannen Ye</h1>
+                <p>Fullstack Software Engineer</p>
+            </div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="images/profile.png" alt="" /></span>
-							<h1 id="title">Shannen Ye</h1>
-							<p>Fullstack Software Engineer</p>
-						</div>
+            <nav id="nav">
+                <ul>
+                    <li>
+                        <a href="#top" id="top-link" class="skel-layers-ignoreHref">
+                            <span class="icon fa-home">Intro</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About</span></a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span
+                                class="icon fa-th">Portfolio</span></a>
+                    </li>
+                    <li>
+                        <a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span
+                                class="icon fa-envelope">Contact</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
+        <div class="bottom">
+            <ul class="icons">
+                <li>
+                    <a href=" https://www.linkedin.com/in/shannenye/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a>
+                </li>
+                <li>
+                    <a href="https://github.com/shannenye" class="icon fa-github"><span class="label">Github</span></a>
+                </li>
+                <li>
+                    <a href="images/Shannen.Ye.pdf" class="icon fa-file-pdf-o"><span class="label">Resume</span></a>
+                </li>
+                <li>
+                    <a href="mailto:shannen.ye@gmail.com" class="icon fa-envelope"><span class="label">shannen.ye@gmail.com</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-								Prologue's nav expects links in one of two formats:
+    <div id="main">
+        <section id="top" class="one dark cover">
+            <div class="container">
+                <header>
+                    <strong>
+                        <h1 class="alt text-shadow">Welcome!</h1>
+                        <p class="text-shadow">
+                            “Before software can be reusable it first has to be usable.”<br />
+                            - Ralph Johnson
+                        </p>
+                    </strong>
+                </header>
 
-								1. Hash link (scrolls to a different section within the page)
+                <footer>
+                    <a href="#portfolio" class="button scrolly">View Portfolio</a>
+                </footer>
+            </div>
+        </section>
 
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+        <!-- About Me -->
+        <section id="about" class="three">
+            <div class="container">
+                <header>
+                    <h2>About</h2>
+                </header>
 
-								2. Standard link (sends the user to another page/site)
+                <a href="#" class="image featured"><img src="images/cover.png" alt="" /></a>
 
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+                <p>
+                    I am a fullstack software engineer based in the Greater New York
+                    City area. I graduated from Fullstack Academy of Code on February
+                    2018. My technical skills include JavaScript, Angular, React, Typescript, Redux,
+                    Node.js, PostgreSQL, Sequelize, Express.js, HTML5/CSS, SCSS. My
+                    non-technical skills are braving challenges such as my fear of
+                    heights and rock climbing.
+                </p>
+            </div>
+        </section>
 
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
-							</ul>
-						</nav>
+        <!-- Portfolio -->
+        <section id="portfolio" class="two">
+            <div class="container">
+                <header>
+                    <h2>Portfolio</h2>
+                </header>
 
-				</div>
+                <div class="row">
+                    <div class="row-content">
+                        <article class="item">
+                            <a href="https://expo.io/@hokevins/breadcrumbs" class="image fit"><img src="images/trail.png" alt="" /></a>
+                            <header>
+                                <h3>
+                                    Breadcrumbs
+                                    <ul class="icons">
+                                        <li>
+                                            <a href="https://github.com/fsa-1710-breadcrumbs" class="icon fa-github"><span
+                                                    class="label">Github</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://expo.io/@hokevins/breadcrumbs" class="icon fa-desktop"><span
+                                                    class="label">Github</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/watch?v=N-uAW3FQRbA" class="icon fa-youtube-play"><span
+                                                    class="label">Github</span></a>
+                                        </li>
+                                    </ul>
+                                </h3>
+                            </header>
+                        </article>
 
-				<div class="bottom">
+                        <p>
+                            Breadcrumbs is an augmented reality React-Native iOS app
+                            inspired by Hansel and Gretel. Users can create or follow a
+                            trail of AR breadcrumbs, rendered as 3D floating orbs through
+                            your phone's camera.
+                        </p>
+                    </div>
+                </div>
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href=" https://www.linkedin.com/in/shannenye/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/shannenye" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="images/Shannen.Ye.pdf" class="icon fa-file-pdf-o"><span class="label">Resume</span></a></li>
-							<li><a href="mailto:shannen.ye@gmail.com" class="icon fa-envelope"><span class="label">shannen.ye@gmail.com</span></a></li>
-						</ul>
+                <div class="row">
+                    <div class="row-content">
+                        <article class="item">
+                            <a href="https://panda-attack.herokuapp.com/" class="image fit"><img src="images/panda-attack.png" alt="" /></a>
+                            <header>
+                                <h3>
+                                    Panda Attack!
+                                    <ul class="icons">
+                                        <li>
+                                            <a href="https://github.com/shannenye/Panda-Attack" class="icon fa-github"><span
+                                                    class="label">Github</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://panda-attack.herokuapp.com/" class="icon fa-desktop"><span
+                                                    class="label">Github</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/watch?v=IoidkoHYCuM" class="icon fa-youtube-play"><span
+                                                    class="label">Github</span></a>
+                                        </li>
+                                    </ul>
+                                </h3>
+                            </header>
+                        </article>
+                        <p>
+                            A game built using Phaser.io library using sprites, collision,
+                            and audio. To win, make sure the pandas don't touch the
+                            zookeeper. It's easy to play because it's only tracking your
+                            mouse so it's great for all ages!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-				</div>
+        <!-- Contact -->
+        <section id="contact" class="four">
+            <div class="container">
+                <header>
+                    <h2>Contact</h2>
+                </header>
 
-			</div>
+                <p>
+                    Hello and thank you for visiting this site! If you have any
+                    thoughts, feedback, or just want to get in touch then you can send me
+                    an email below. You can also send an email directly by clicking the
+                    envelope icon on the bottom left-hand corner. I'd love to hear from
+                    you!
+                </p>
 
-		<!-- Main -->
-			<div id="main">
+                <form method="post" action="https://formspree.io/shannen.ye@gmail.com">
+                    <div class="row uniform 50%">
+                        <div class="5u 12u$(small)">
+                            <input type="text" name="name" placeholder="Name..." />
+                        </div>
+                        <div class="5u$ 12u$(mobile)">
+                            <input type="text" name="email" placeholder="Email..." />
+                        </div>
+                        <div class="10u$">
+                            <textarea name="message" id="message" placeholder="Message..." rows="4"></textarea>
+                        </div>
+                        <div class="10u$">
+                            <input type="submit" value="Send Message" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+    <!-- Footer -->
+    <div id="footer">
+        <!-- Copyright -->
+        <ul class="copyright">
+            <li>&copy; Shannen Ye.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
 
-							<header>
-								<strong>
-									<h1 class="alt">Welcome!</h1>
-									<p>“To iterate is human, to recurse divine.”<br />
-										- L. Peter Deutsch</p>
-								</strong>
-							</header>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollzer.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 
-							<footer>
-								<a href="#portfolio" class="button scrolly">View Portfolio</a>
-							</footer>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-				<section id="about" class="three">
-					<div class="container">
-
-						<header>
-							<h2>About</h2>
-						</header>
-
-						<a href="#" class="image featured"><img src="images/cover.png" alt="" /></a>
-
-						<p>I am a fullstack software engineer based in the Greater New York City area. I graduated from Fullstack Academy of Code on February 2018. My technical skills include JavaScript, Node.js, React, Redux, PostgreSQL, Sequelize, Express.js, HTML, and React-Native. My non-technical skills are braving challenges such as my fear of heights and rock climbing.</p>
-
-					</div>
-				</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<div class="row">
-								<div class="5u 12u$(mobile)">
-									<article class="item">
-										<a href="https://expo.io/@hokevins/breadcrumbs" class="image fit"><img src="images/trail.png" alt="" /></a>
-										<header>
-											<h3>Breadcrumbs
-												<ul class="icons">
-													<li><a href="https://github.com/fsa-1710-breadcrumbs" class="icon fa-github"><span class="label">Github</span></a></li>
-													<li><a href="https://expo.io/@hokevins/breadcrumbs" class="icon fa-desktop"><span class="label">Github</span></a></li>
-													<li><a href="https://www.youtube.com/watch?v=N-uAW3FQRbA" class="icon fa-youtube-play"><span class="label">Github</span></a></li>
-												</ul>
-											</h3>
-										</header>
-									</article>
-
-									<p>Breadcrumbs is an augmented reality React-Native iOS app inspired by Hansel and Gretel. Users can create or follow a trail of AR breadcrumbs, rendered as 3D floating orbs through your phone's camera.</p>
-								</div>
-
-								<div class="5u 12u$(mobile)">
-									<article class="item">
-										<a href="https://panda-attack.herokuapp.com/" class="image fit"><img src="images/panda-attack.png" alt="" /></a>
-										<header>
-											<h3>Panda Attack!
-												<ul class="icons">
-													<li><a href="https://github.com/shannenye/Panda-Attack" class="icon fa-github"><span class="label">Github</span></a></li>
-													<li><a href="https://panda-attack.herokuapp.com/" class="icon fa-desktop"><span class="label">Github</span></a></li>
-													<li><a href="https://www.youtube.com/watch?v=IoidkoHYCuM" class="icon fa-youtube-play"><span class="label">Github</span></a></li>
-												</ul>
-											</h3>
-										</header>
-									</article>
-									<p>A game built using Phaser.io library using sprites, collision, and audio. To win, make sure the pandas don't touch the zookeeper. It's easy to play because it's only tracking your mouse so it's great for all ages!</p>
-								</div>
-
-							</div>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>Hello and thank you for visiting this site! If you have any thoughts, feedback, or just want to get in touch then please send me an email below. You can also send an email directly by clicking the envelope icon on the bottom left-hand corner. I'd love to hear from you!</p>
-
-							<form method="post" action="https://formspree.io/shannen.ye@gmail.com">
-								<div class="row uniform 50%">
-									<div class="5u 12u$(small)"><input type="text" name="name" placeholder="Name..." /></div>
-									<div class="5u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email..." /></div>
-									<div class="10u$">
-										<textarea name="message" id="message" placeholder="Message..." rows="4"></textarea>
-									</div>
-									<div class="10u$">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
-
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Shannen Ye.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
