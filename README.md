@@ -5,7 +5,3 @@ Relevant Links
 * [Github](https://github.com/shannenye)
 * [LinkedIn](https://www.linkedin.com/in/shannenye/)
 
-
-
-Prologue by HTML5 UP
-html5up.net | @ajlkn
